@@ -1,7 +1,9 @@
+--made by zenoXD sh--
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Pizza Hub🍕",
+   Name = "zenoXD Hub",
    LoadingTitle = "Subscribe to zenoXD sh",
    LoadingSubtitle = "by ZenoXD sh",
    ConfigurationSaving = {
@@ -10,19 +12,19 @@ local Window = Rayfield:CreateWindow({
       FileName = "Big Hub"
    },
    Discord = {
-      Enabled = false,
+      Enabled = True,
       Invite = "https://discord.com/invite/RMvCHJrJ", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Pizza Hub key system",
+      Title = "zenoXD Hub",
       Subtitle = "Key System",
-      Note = "Key: Pizzabesthub",
+      Note = "Key: zenoXDbesthub",
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Pizzabesthub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"zenoXDbesthub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -251,13 +253,6 @@ local Button = Tab4:CreateButton({
    Name = "Vadrifts bypass",
    Callback = function()
    loadstring(game:HttpGet("https://vadrifts.dev/source.lua"))()
-   end,
-})
-
-local Button = Tab4:CreateButton({
-   Name = "Eminence bypass",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Eminence%20Hub%20V1.6"))()
    end,
 })
 
@@ -553,5 +548,167 @@ local Button = Tab7:CreateButton({
    Name = "Lightux Hub",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+   end,
+})
+
+local Section4 = Tab7:CreateSection("Blade Ball")
+
+local Button = Tab7:CreateButton({
+   Name = "DenDenZZZ Creation Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZYT/DenDenZ-s-Creations/main/DenDenZZZ's%20Creation%20FREE%20v1-4-obfuscated.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Bedol Hub",
+   Callback = function()
+   loadstring(Game:HttpGet("https://raw.githubusercontent.com/Fsploit/venox-blade-ball-v1/main/K-A-T-S-U-S-F-S-P-L-O-I-T-I-S-A-F-U-R-R-Y%20MAIN%20V4"))() 
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "REDz Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Blade Bole",
+   Callback = function()
+   loadstring(game:HttpGet("https://paste.gg/p/anonymous/09aa7f4e37454119ac398fa9e5ddedd9/files/b1f5d2d6ab284565ae6c536c3080ef88/raw"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Bedol Hub(Key System)",
+   Callback = function()
+   _G.UI_Size = 200 -- config ui size
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Nexam Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Phantom Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GrandmasterOfLife123/lua/main/releasedbladeball.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "FFJ Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
+   end,
+})
+
+local Section5 = Tab:CreateSection("Murder Mystery 2")
+
+local Button = Tab7:CreateButton({
+   Name = "Overdrive",
+   Callback = function()
+   loadstring(game:HttpGet("https://overdrive-h.ohd.workers.dev/?d=loader"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Eclipse Hub",
+   Callback = function()
+   getgenv().mainKey = "nil";
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)() 
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Nexus Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/s-0-a-b/nexus/main/loadstring"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Highlights Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "R3TH Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "SnapSanix Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "GG Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/SecondDupe"))(
+   end,
+})
+
+local Section6 = Tab:CreateSection("Slap Battle")
+
+local Button = Tab7:CreateButton({
+   Name = "SBHTE Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Slap-Battles-Open-source-for-9484"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Slap Battle",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua",true))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Destroyer X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/DestroyerX"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/anuVuXjv'))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Slap Battle",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Kykyryz Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Zjwbi81T"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Dizzy Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
    end,
 })
