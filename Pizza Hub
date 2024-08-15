@@ -426,7 +426,7 @@ local Button = Tab7:CreateButton({
 local Section2 = Tab7:CreateSection("Blox Fruits")
 
 local Button = Tab7:CreateButton({
-   Name = "Hoho Hub",
+   Name = "Hoho Hub(Key System)",
    Callback = function()
    _G.HohoVersion = "v4"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
@@ -463,7 +463,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/
 })
 
 local Button = Tab7:CreateButton({
-   Name = "MTriet Hub",
+   Name = "MTriet Hub(key System)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
    end,
