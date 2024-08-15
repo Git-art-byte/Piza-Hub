@@ -255,7 +255,7 @@ local Button = Tab4:CreateButton({
 })
 
 local Button = Tab4:CreateButton({
-   Name = "Chat bypass",
+   Name = "Eminence bypass",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Eminence%20Hub%20V1.6"))()
    end,
