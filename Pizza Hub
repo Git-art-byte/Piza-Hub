@@ -138,6 +138,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/Name
 })
 
 local Button = Tab3:CreateButton({
+   Name = "Proton Admin",
+   Callback = function()
+_G.UI_Id = "default" --set this to "default" for the default ui
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua"))()
+   end,
+})
+
+local Button = Tab3:CreateButton({
    Name = "Fate Admin",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
@@ -354,6 +362,13 @@ local Button = Tab6:CreateButton({
 })
 
 local Button = Tab6:CreateButton({
+   Name = "Portal Gun(type the player name in the textbox and use the portal gun)",
+   Callback = function()
+   loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
+   end,
+})
+
+local Button = Tab6:CreateButton({
    Name = "Tools Giver",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
@@ -455,7 +470,7 @@ local Button = Tab7:CreateButton({
 })
 
 local Button = Tab7:CreateButton({
-   Name = "Vector Hub",
+   Name = "Vector Hub(Key System)",
    Callback = function()
    _G.Mode = "English"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
@@ -463,7 +478,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/
 })
 
 local Button = Tab7:CreateButton({
-   Name = "MTriet Hub(key System)",
+   Name = "MTriet Hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
    end,
@@ -473,5 +488,56 @@ local Button = Tab7:CreateButton({
    Name = "RELZ Hub",
    Callback = function()
    loadstring(Game:HttpGet"https://relzhub.xcodehoster.com/loader.lua")()
+   end,
+})
+
+local Section3 = Tab7:CreateSection("The Strongest Battleground")
+
+local Button = Tab7:CreateButton({
+   Name = "KJ",
+   Callback = function()
+   loadstring(game:HttpGet"https://gist.githubusercontent.com/kjremaker/aba7ddb6c6cc9e66c5c8a8d4b014d8af/raw/873f86d73db961e22e115a3f23c01b743d990b04/CLIENT%2520KJ%2520FINALLY%2520FINISHED")()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "KadeHub",
+   Callback = function()
+   loadstring(game:HttpGet(('https://gist.githubusercontent.com/skibiditoiletfan2007/9c8acec1b350bb2a27f4101e2eec803e/raw/bd6fe461cb8fe7b11c53f71999759b1fc5b5e649/TheCaptainsGoDownWithTheirShip.lua'),true))()  
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui ",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Saitama111/main/battle121"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "NS Hub(Key System)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/wdas/main/78"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Lightux Hub",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
    end,
 })
