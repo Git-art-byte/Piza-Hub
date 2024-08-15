@@ -362,9 +362,16 @@ local Button = Tab6:CreateButton({
 })
 
 local Button = Tab6:CreateButton({
-   Name = "Portal Gun(type the player name in the textbox and use the portal gun)",
+   Name = "Gravity Gun",
    Callback = function()
-   loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Git-art-byte/Gravity-gun/main/Gravity%20Gun?token=GHSAT0AAAAAACVUZM2TYAMSQZ4YNESGNVS2ZV54GZA"))()
+   end,
+})
+
+local Button = Tab6:CreateButton({
+   Name = "Gatling Gun(need pal hair)",
+   Callback = function()
+   loadstring(game:HttpGet(('https://pastefy.app/GoKxYBkU/raw'), true))()
    end,
 })
 
