@@ -1,24 +1,24 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "zenoXD Hub",
+   Name = "zenoXD hub",
    LoadingTitle = "Subscribe to zenoXD sh",
-   LoadingSubtitle = "by ZenoXD sh",
+   LoadingSubtitle = "by zenoXD sh",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "Big Hub"
    },
    Discord = {
-      Enabled = True,
-      Invite = "https://discord.com/invite/RMvCHJrJ", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
-      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "zenoXD Hub",
-      Subtitle = "Key System",
-      Note = "Key: zenoXDbesthub",
+      Subtitle = "Key: zenoXDbesthub",
+      Note = "No method of obtaining the key is provided",
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -611,7 +611,7 @@ local Button = Tab7:CreateButton({
 local Section5 = Tab:CreateSection("Murder Mystery 2")
 
 local Button = Tab7:CreateButton({
-   Name = "Overdrive",
+   Name = "Overdrive H",
    Callback = function()
    loadstring(game:HttpGet("https://overdrive-h.ohd.workers.dev/?d=loader"))()
    end,
@@ -620,7 +620,8 @@ local Button = Tab7:CreateButton({
 local Button = Tab7:CreateButton({
    Name = "Eclipse Hub",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))() 
+   getgenv().mainKey = "nil";
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
    end,
 })
 
