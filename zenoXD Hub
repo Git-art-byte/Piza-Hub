@@ -1,5 +1,3 @@
---made by zenoXD sh--
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -688,13 +686,6 @@ local Button = Tab7:CreateButton({
    Name = "Unnamed gui",
    Callback = function()
    loadstring(game:HttpGet('https://pastebin.com/anuVuXjv'))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Slap Battle",
-   Callback = function()
-   
    end,
 })
 
